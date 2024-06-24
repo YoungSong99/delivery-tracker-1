@@ -20,10 +20,10 @@
 
     <dl>
       <dt>
-        Arrived
+        User
       </dt>
       <dd>
-        <%= @the_delivery.arrived %>
+        <%= @the_delivery.user_id %>
       </dd>
 
       <dt>
@@ -48,10 +48,10 @@
       </dd>
 
       <dt>
-        User
+        Arrived
       </dt>
       <dd>
-        <%= @the_delivery.user_id %>
+        <%= @the_delivery.arrived %>
       </dd>
 
       <dt>
@@ -82,11 +82,11 @@
 
     <form action="/modify_delivery/<%= @the_delivery.id %>"  method="post" >
       <div>
-        <input type="checkbox" id="arrived_box" name="query_arrived" value="1" <%= "checked" if @the_delivery.arrived %>>
-
-        <label for="arrived_box">
-            Arrived
+        <label for="user_id_box">
+          User
         </label>
+
+        <input type="text" id="user_id_box" name="query_user_id" value="<%= @the_delivery.user_id %>">
       </div>
 
       <div>
@@ -114,11 +114,11 @@
       </div>
 
       <div>
-        <label for="user_id_box">
-          User
-        </label>
+        <input type="checkbox" id="arrived_box" name="query_arrived" value="1" <%= "checked" if @the_delivery.arrived %>>
 
-        <input type="text" id="user_id_box" name="query_user_id" value="<%= @the_delivery.user_id %>">
+        <label for="arrived_box">
+          Arrived
+        </label>
       </div>
 
       <button>
