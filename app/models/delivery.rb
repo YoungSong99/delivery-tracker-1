@@ -12,4 +12,11 @@
 #  user_id               :integer
 #
 class Delivery < ApplicationRecord
+  belongs_to(:user)
+
+  scope :delayed, -> { where("supposed_to_arrive_on < ?", Date.today) }
+
+  def delayed?
+    self.supposed_to_arrive_on < Date.today
+  end
 end
