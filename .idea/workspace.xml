@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebf01160-e3aa-4f02-b07e-eedf2b917d83" name="Changes" comment="feat: personalized delivery view">
-      <change beforePath="$PROJECT_DIR$/app/views/deliveries/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/deliveries/index.html.erb" afterDir="false" />
+    <list default="true" id="ebf01160-e3aa-4f02-b07e-eedf2b917d83" name="Changes" comment="add: div styling">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +135,7 @@
       <workItem from="1719002472470" duration="2863000" />
       <workItem from="1719070215729" duration="677000" />
       <workItem from="1719087480326" duration="3677000" />
-      <workItem from="1719243433669" duration="1977000" />
+      <workItem from="1719243433669" duration="2181000" />
     </task>
     <task id="LOCAL-00001" summary="feat: login, sign up, delivery CRUD">
       <option name="closed" value="true" />
@@ -216,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719245379980</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add: div styling">
+      <option name="closed" value="true" />
+      <created>1719245459103</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719245459103</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +241,8 @@
     <MESSAGE value="add: user:devise" />
     <MESSAGE value="feat: sign up required to see delivery" />
     <MESSAGE value="feat: personalized delivery view" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: personalized delivery view" />
+    <MESSAGE value="add: div styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: div styling" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/delivery_tracker_1@delivery_tracker_1.rcov" NAME="delivery-tracker-1 Coverage Results" MODIFIED="1719244680638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="delivery-tracker-1" />
