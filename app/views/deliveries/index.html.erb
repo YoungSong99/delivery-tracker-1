@@ -48,14 +48,14 @@
 </div>
 
 <hr>
-<div>
+<div class="waiting_on" style="background-color: #fafad2">
   <h2>Waiting on</h2>
   <ul>
     <% @list_of_waiting_deliveries.each do |a_delivery| %>
       <li>
         <div><%= a_delivery.description %></div>
 
-        <div>
+        <div style="<%= 'color: red;' if a_delivery.delayed? %>">
           Supposed to arrive on
           <%= a_delivery.supposed_to_arrive_on %>
         </div>
@@ -76,7 +76,7 @@
   </ul>
 </div>
 <hr>
-<div>
+<div class="received" style="background-color: #90ee8f">
   <h2>Received</h2>
   <ul>
     <% @list_of_arrived_deliveries.each do |arrived_delivery| %>
